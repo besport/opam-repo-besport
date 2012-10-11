@@ -10,7 +10,6 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "netstring"
   "cryptokit"
   "calendar"
   "lwt"
