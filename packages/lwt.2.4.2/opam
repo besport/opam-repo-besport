@@ -1,5 +1,5 @@
 opam-version: "1"
-maintainer: "contact@ocamlpro.com"
+maintainer: "hugo.heuzard@gmail.com"
 build: [
   ["./configure" "--%{conf-libev:enable}%-libev" "--%{react:enable}%-react" "--%{ssl:enable}%-ssl" "--%{base-unix:enable}%-unix" "--%{base-unix:enable}%-extra" "--%{base-threads:enable}%-preemptive"]
   ["%{make}%" "build"]

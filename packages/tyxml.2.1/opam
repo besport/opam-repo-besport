@@ -1,5 +1,5 @@
 opam-version: "1"
-maintainer: "contact@ocamlpro.com"
+maintainer: "hugo.heuzard@gmail.com"
 build: [
   ["%{make}%"]
   ["%{make}%" "install"]
