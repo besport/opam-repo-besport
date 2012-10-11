@@ -1,6 +1,7 @@
 opam-version: "1"
 maintainer: "hugo.heuzard@gmail.com"
 build: [
+  ["oasis" "setup"]
   ["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%" "--enable-ocsigen"]
   ["ocaml" "setup.ml" "-build"]
   ["ocaml" "setup.ml" "-install"]
@@ -10,6 +11,7 @@ remove: [
 ]
 depends: [
   "ocamlfind"
+  "oasis"
   "cryptokit"
   "calendar"
   "lwt"
