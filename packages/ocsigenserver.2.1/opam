@@ -17,6 +17,5 @@ depends: [
   "pcre-ocaml"
   "cryptokit"
   "tyxml"
-  "dbm"
 ]
-depopts: [ "sqlite3-ocaml" ]
+depopts: [ "sqlite3-ocaml" "dbm" ]
