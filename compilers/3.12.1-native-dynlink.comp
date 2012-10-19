@@ -2,7 +2,7 @@ opam-version: "1"
 name: "3.12.1-native-dynlink"
 src: "http://caml.inria.fr/pub/distrib/ocaml-3.12/ocaml-3.12.1.tar.gz"
 build: [
-  ["sed" "-iold" "'s/darwin10/darwin1[0123456789]/g'"]
+  ["sed" "-iold" "s/darwin10/darwin1[0123456789]/g" "configure"]
   ["./configure" "-prefix" "%{prefix}%"]
   ["%{make}%" "world"]
   ["%{make}%" "world.opt"]
