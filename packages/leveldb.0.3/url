@@ -1,2 +1,1 @@
-archive: "https://github.com/besport/ocaml-leveldb/tarball/0.3"
-checksum: "a7baddbe9a9fec91c6d77aafd1b19c0d"
+git: "git://github.com/besport/ocaml-leveldb.git"
