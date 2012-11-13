@@ -11,7 +11,6 @@ make install
 - with brew
 brew update
 brew install opam
-
 - configure it:
 opam init
 eval `opam config -env`
