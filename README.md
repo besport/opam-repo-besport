@@ -18,10 +18,10 @@ echo "eval \`opam config -env\`" >> ~/.bashrc
 
 Setup
 ----------------
-        # opam remote -add default2 git://github.com/hhugo/opam-repository.git 50
-          opam remote -add besport git://github.com/besport/opam-repo-besport.git 100
-          opam update
-          opam install ocamlfind deriving-ocsigen js_of_ocaml eliom tyxml ocsigenserver camlzip sqlite3-ocaml aws pcre-ocaml leveldb yojson xmlm aliases imagemagick sqlite3-ocaml csv
+        opam remote -add default2 git://github.com/hhugo/opam-repository.git 50
+        opam remote -add besport git://github.com/besport/opam-repo-besport.git 100
+        opam update
+        opam install ocamlfind deriving-ocsigen js_of_ocaml eliom tyxml ocsigenserver camlzip sqlite3-ocaml aws pcre-ocaml leveldb yojson xmlm aliases imagemagick sqlite3-ocaml csv
 
 
 Other dependencies
