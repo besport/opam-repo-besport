@@ -2,19 +2,19 @@ documentation here http://opam.ocamlpro.com/
 Installation
 ----------------
 - install it manualy:
-git clone git://github.com/OCamlPro/opam.git
-cd opam
-git checkout 0.7.7
-./configure
-make
-make install
+ - git clone git://github.com/OCamlPro/opam.git
+ - cd opam
+ - git checkout 0.7.7
+ - ./configure
+ - make
+ - make install
 - with brew
-brew update
-brew install opam
-- configure it:
-opam init
-eval `opam config -env`
-echo "eval \`opam config -env\`" >> ~/.bashrc
+ - brew update
+ - brew install opam
+- than configure it:
+ - opam init
+ - eval `opam config -env`
+ - echo "eval \`opam config -env\`" >> ~/.bashrc
 
 Setup
 ----------------
