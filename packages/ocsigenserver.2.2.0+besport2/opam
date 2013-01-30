@@ -13,9 +13,10 @@ depends: [
   "react"
   "ssl"
   "lwt"
-  "ocamlnet" {= "3.6.0"}
+  "ocamlnet" {>= "3.6.0"}
   "pcre-ocaml"
   "cryptokit"
   "tyxml"
+  "sqlite3-ocaml"
 ]
-depopts: [ "sqlite3-ocaml" "dbm" "camlzip" {>= "1.04"}]
+depopts: [ "camlzip" {>= "1.04"}]
