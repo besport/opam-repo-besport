@@ -1,7 +1,7 @@
 Binary files /home/hugo/Downloads/camlzip-1.05/dllcamlzip.so and ./dllcamlzip.so differ
 diff -urN /home/hugo/Downloads/camlzip-1.05/Makefile ./Makefile
 --- /home/hugo/Downloads/camlzip-1.05/Makefile	2012-10-11 20:36:07.000000000 -0700
-+++ ./Makefile	2013-02-18 10:43:25.569962654 -0800
++++ ./Makefile	2013-02-18 12:17:42.953886858 -0800
 @@ -25,7 +25,7 @@
  
  all: libcamlzip.a zip.cma
@@ -31,7 +31,7 @@ diff -urN /home/hugo/Downloads/camlzip-1.05/Makefile ./Makefile
  install-findlib:
 -	ocamlfind install zip META *.mli *.a *.cmi *.cma $(wildcard *.cmxa) $(wildcard *.so)
 +	ocamlfind install zip META *.mli *.a *.cmi *.cma $(wildcard *.cmxa) $(wildcard *.cmxs) $(wildcard *.so)
-+	echo 'directory="../zip"' > META && ocamlfind install camlzip META
++	echo 'directory="../zip"' > META && echo 'requires="zip"' >> META && ocamlfind install camlzip META
  
  depend:
  	gcc -MM -I$(ZLIB_INCLUDE) *.c > .depend
@@ -43,3 +43,9 @@ diff -urN /home/hugo/Downloads/camlzip-1.05/META ./META
  archive(byte)="zip.cma"
  archive(native)="zip.cmxa"
 +archive(native,plugin)="zip.cmxs"
+diff -urN /home/hugo/Downloads/camlzip-1.05/t ./t
+--- /home/hugo/Downloads/camlzip-1.05/t	1969-12-31 16:00:00.000000000 -0800
++++ ./t	2013-02-18 12:18:02.977886590 -0800
+@@ -0,0 +1,2 @@
++1
++2
