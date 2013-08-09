@@ -1,2 +1,1 @@
 OCaml lib access to Amazon services : S3,
-EC2, SQS, SDB, FPS, IAM, DynamoDb, SES.

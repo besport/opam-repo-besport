@@ -1,6 +1,5 @@
 opam-version: "1"
 maintainer: "seb@mondet.org"
-patches: ["fix-install.patch"]
 build: [
   ["%{make}%" "all"]
   ["%{make}%" "allopt"]
@@ -9,4 +8,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "zip"]
 ]
-depends: [ "ocamlfind" ]
+depends: [
+  "ocamlfind"
+]
+patches: ["fix-install.patch"]

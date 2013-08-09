@@ -1,9 +1,11 @@
 opam-version: "1"
 maintainer: "hugo.heuzard@gmail.com"
 build: [
-  ["make" "install"]
+  [make "install"]
 ]
 remove: [
-  ["make" "uninstall" ]
+  [make "uninstall"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]
