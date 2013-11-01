@@ -9,6 +9,7 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "deriving-ocsigen"
+  "deriving"
   "lwt"
+  "menhir"
 ]

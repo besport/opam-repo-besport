@@ -10,7 +10,7 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "deriving-ocsigen"
+  "deriving"
   "js_of_ocaml" {>= "1.3"}
   "calendar"
   "ocsigenserver" {>= "2.2"}
