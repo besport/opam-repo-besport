@@ -1,0 +1,15 @@
+opam-version: "1"
+maintainer: "hugo.heuzard@gmail.com"
+build: [
+  ["%{make}%"]
+  ["%{make}%" "install" "BINDIR=%{bin}%"]
+]
+remove: [
+  ["ocamlfind" "remove" "js_of_ocaml"]
+]
+depends: [
+  "ocamlfind"
+  "deriving"
+  "lwt"
+  "menhir"
+]
