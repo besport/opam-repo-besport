@@ -18,4 +18,3 @@ depends: [
   ("dbm" | "sqlite3-ocaml")
 ]
 depopts: ["camlzip" {>= "1.04"}]
-patches: ["use_netstring-pcre.patch"]

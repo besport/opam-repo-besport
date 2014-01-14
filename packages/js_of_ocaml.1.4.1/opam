@@ -11,5 +11,5 @@ depends: [
   "menhir"
 ]
 depopts: [
-  "ocsigen" {>= "0.5"}
+  "deriving" {>= "0.5"}
 ]

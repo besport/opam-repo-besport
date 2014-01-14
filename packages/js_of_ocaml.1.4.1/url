@@ -1,2 +1,2 @@
-archive: "http://ocsigen.org/download/js_of_ocaml-1.4.tar.gz"
-checksum: "d3e8c6c378fd17d052ea12e8e6ee86b5"
+archive: "https://github.com/besport/js_of_ocaml/archive/1.4.1.tar.gz"
+checksum: "915287c7b612f9eaa897d5a87244a76a"
