@@ -1,4 +1,0 @@
-bin: [
-  "compiler/js_of_ocaml"
-  "compiler/joo_minify"
-]
