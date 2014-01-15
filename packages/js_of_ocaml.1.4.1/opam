@@ -4,7 +4,10 @@ build: [
   [make]
   [make "install" "BINDIR=%{bin}%"]
 ]
-remove: [["ocamlfind" "remove" "js_of_ocaml"]]
+remove: [
+  ["ocamlfind" "remove" "js_of_ocaml"]
+  ["ocamlfind" "remove" "js_of_ocaml_compiler"]
+]
 depends: [
   "ocamlfind"
   "lwt" {>= "2.3.0"}
